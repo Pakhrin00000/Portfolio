@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Sujan Pakhrin - Creative Developer & Cybersecurity Enthusiast.">
+  <title>Sujan Pakhrin | Creative Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container header__container">
+      <a href="#" class="logo">Sujan<span class="accent">.</span></a>
+
+      <nav class="nav" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#journey" class="nav__link">Journey</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="theme-button" aria-label="Toggle Theme">
+          <svg class="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- HOME -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Hello, I'm</span>
+          <h1 class="home__title"><span class="home__title-wrapper"></span></h1>
+          <p class="home__description">
+            Creative Developer & Cybersecurity Enthusiast. <br>
+            I build accessible, pixel-perfect, performant, and secure web experiences.
+            Passionate about the intersection of web development and cybersecurity, where design meets defense.
+          </p>
+
+          <div class="home__buttons">
+            <a href="#projects" class="button">View Projects</a>
+            <a href="#contact" class="button button--ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <svg class="home__scroll-mouse" width="32" height="32" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 5C10.8954 5 10 5.89543 10 7V17C10 18.1046 10.8954 19 12 19C13.1046 19 14 18.1046 14 17V7C14 5.89543 13.1046 5 12 5Z"
+                stroke="var(--first-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M12 9V12" stroke="var(--first-color)" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <span class="home__scroll-name">Scroll Down</span>
+            <svg class="home__scroll-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Background Shapes -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+
+      <div class="about__container container grid">
+        <img src="logo.jpg" alt="Sujan Pakhrin" class="about__img glass">
+
+        <div class="about__data">
+          <p class="about__description">
+            Tech enthusiast with skills in web development, programming, networking, and cybersecurity.
+            Experienced with
+            penetration testing tools (Nmap, Hydra, Metasploit, Cisco, brute-force techniques) and foundational
+            CCNA
+            networking. Skilled in HTML, CSS, JavaScript, PHP, MySQL, Python, Java, C, and Android Studio
+            (Kotlin).
+            Passionate about continuous learning, building digital solutions, and strengthening system security.
+          </p>
+
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">03+</span>
+              <span class="about__info-name">Years <br> experience</span>
+            </div>
+            <div>
+              <span class="about__info-title">20+</span>
+              <span class="about__info-name">Completed <br> projects</span>
+            </div>
+            <!-- <div>
+              <span class="about__info-title">0</span>
+              <span class="about__info-name">Companies <br> worked</span>
+            </div> -->
+          </div>
+
+          <div class="about__buttons">
+            <a href="#" class="button" style="margin-top: 1rem;">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="journey section" id="journey">
+      <h2 class="section__title">My Journey</h2>
+      <span class="section__subtitle">The path I've traveled</span>
+
+      <div class="journey__container container grid">
+        <div class="journey__content glass">
+          <p class="journey__description">
+            My journey in the world of technology started with a simple curiosity—how do computers, networks,
+            and
+            websites really work behind the scenes? That curiosity quickly grew into passion, pushing me to
+            explore
+            different areas of tech, from web development to networking and cybersecurity.
+            <br><br>
+            I began by building my foundation through computer fundamentals and CCNA networking, where I learned
+            how
+            devices communicate, how networks operate, and how data flows across systems. This early knowledge
+            opened
+            the door to a deeper interest: cybersecurity. I started studying ethical hacking concepts and gained
+            hands-on experience with tools like Nmap, Hydra, Cisco technologies, Metasploit Framework,
+            brute-force
+            testing, and basic penetration testing methods. Understanding how vulnerabilities work and how
+            systems can
+            be protected became one of the most exciting parts of my journey.
+            <br><br>
+            At the same time, I discovered my love for creating. Web development became another major part of my
+            focus.
+            Using HTML, CSS, JavaScript, PHP, and MySQL, I began designing websites, building interfaces, and
+            turning
+            ideas into functioning web experiences. This creative side of tech allowed me to express myself,
+            improve my
+            skills, and bring concepts to life on the screen.
+            <br><br>
+            My learning didn’t stop there. I expanded into programming with Python, C, Java, and explored app
+            development using Android Studio with Kotlin and Java. Each new tool and language helped me better
+            understand how software is built, how systems operate, and how everything connects together.
+            <br><br>
+            Throughout this journey, one thing has remained constant—my passion for learning. I am always
+            exploring new
+            technologies, improving my skills, and growing both as a developer and as a cybersecurity
+            enthusiast. I aim
+            to build meaningful digital solutions while learning how to secure and strengthen the systems behind
+            them.
+            <br><br>
+            This is just the beginning of my path, and I’m excited to keep moving forward—building, exploring,
+            and
+            discovering the next step in my tech journey.
+          </p>
+        </div>
+
+        <div class="journey__images grid">
+          <img src="pictures/01dab20d-669e-4f7b-8336-ec551096334d.jpeg" alt="Journey Image 1"
+            class="journey__img glass">
+          <img src="pictures/b78db415-bb13-47e2-81e3-525664796b1d.jpeg" alt="Journey Image 2"
+            class="journey__img glass">
+          <img src="pictures/e856abbe-7100-43f9-ab71-f899502c7748.jpeg" alt="Journey Image 3"
+            class="journey__img glass">
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My technical level</span>
+
+      <div class="skills__container container grid">
+        <div class="skills__content glass">
+          <h3 class="skills__title">Web Development</h3>
+          <div class="skills__box">
+            <span class="skills__name">HTML</span>
+            <span class="skills__name">CSS</span>
+            <span class="skills__name">JavaScript</span>
+            <span class="skills__name">PHP</span>
+            <span class="skills__name">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skills__content glass">
+          <h3 class="skills__title">Programming</h3>
+          <div class="skills__box">
+            <span class="skills__name">Python</span>
+            <span class="skills__name">Java</span>
+            <span class="skills__name">C</span>
+            <span class="skills__name">Kotlin</span>
+          </div>
+        </div>
+
+        <div class="skills__content glass">
+          <h3 class="skills__title">Cybersecurity & Networking</h3>
+          <div class="skills__box">
+            <span class="skills__name">Nmap</span>
+            <span class="skills__name">Hydra</span>
+            <span class="skills__name">Metasploit</span>
+            <span class="skills__name">Cisco</span>
+            <span class="skills__name">Penetration Testing</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most recent work</span>
+
+      <div class="projects__container container grid">
+        <!-- Project 1 -->
+        <div class="projects__content glass">
+          <img src="assets/img/project1.png" alt="School E-commerce Website" class="projects__img">
+          <h3 class="projects__title">School E-commerce UI</h3>
+          <p class="projects__description" style="font-size: var(--smaller-font-size); margin-bottom: var(--mb-1);">
+            A responsive landing page clone for a school e-commerce platform. Designed with clean, semantic HTML
+            and
+            modern CSS to ensure a seamless user interface.
+          </p>
+          <a href="#" class="projects__button button button--flex button--small">
+            View Details
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="button__icon">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+        <!-- Project 2 -->
+        <div class="projects__content glass">
+          <img src="assets/img/project2.png" alt="Secure Assignment System" class="projects__img">
+          <h3 class="projects__title">Secure Assignment System</h3>
+          <p class="projects__description" style="font-size: var(--smaller-font-size); margin-bottom: var(--mb-1);">
+            A secure School Management System (HTML, CSS, JS, PHP, MySQL) featuring role-based access, CRUD
+            operations,
+            and robust protection against SQL injection and XSS. Includes AI-based performance insights.
+          </p>
+          <a href="#" class="projects__button button button--flex button--small">
+            View Details
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="button__icon">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+        <!-- Project 3 -->
+        <div class="projects__content glass">
+          <img src="assets/img/project3.png" alt="GeeksforGeeks Clone" class="projects__img">
+          <h3 class="projects__title">GeeksforGeeks Clone</h3>
+          <p class="projects__description" style="font-size: var(--smaller-font-size); margin-bottom: var(--mb-1);">
+            A pixel-perfect clone of the GeeksforGeeks landing page. Showcases precise front-end replication
+            skills and
+            attention to detail in UI/UX design.
+          </p>
+          <a href="#" class="projects__button button button--flex button--small">
+            View Details
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="button__icon">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+          </a>
+        </div>
+        <!-- Project 4 (Upcoming) -->
+        <div class="projects__content glass projects__upcoming">
+          <div class="projects__icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+              stroke="var(--first-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+          </div>
+          <h3 class="projects__title">Cybersecurity Project</h3>
+          <span class="projects__badge">Upcoming</span>
+          <p class="projects__description" style="font-size: var(--smaller-font-size); margin-bottom: var(--mb-1);">
+            A robust penetration testing tool and vulnerability scanner. Currently in development phase with focus on
+            automated security auditing.
+          </p>
+          <button class="projects__button button button--flex button--ghost button--small" disabled
+            style="cursor: not-allowed; opacity: 0.7;">
+            In Progress...
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="contact__icon">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+              </path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">sujanpakhrin969@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact__information">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="contact__icon">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Kathmandu, Nepal</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content glass">
+              <label for="name" class="contact__label">Name</label>
+              <input type="text" name="name" id="name" class="contact__input">
+            </div>
+            <div class="contact__content glass">
+              <label for="email" class="contact__label">Email</label>
+              <input type="email" name="email" id="email" class="contact__input">
+            </div>
+          </div>
+          <div class="contact__content glass">
+            <label for="project" class="contact__label">Project</label>
+            <input type="text" name="project" id="project" class="contact__input">
+          </div>
+          <div class="contact__content glass contact__form-area">
+            <label for="message" class="contact__label">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" class="contact__input"></textarea>
+          </div>
+
+          <a href="#" class="button button--flex">
+            Send Message
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="button__icon">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Sujan Pakhrin</h1>
+      <ul class="footer__list">
+        <li><a href="#about" class="footer__link">About</a></li>
+        <li><a href="#projects" class="footer__link">Projects</a></li>
+        <li><a href="#contact" class="footer__link">Contact</a></li>
+      </ul>
+
+      <div class="footer__social">
+        <a href="https://www.facebook.com/share/1CyQCHRDFZ/" class="footer__social-link" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sujan-pakhrin-083b022a5?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          class="footer__social-link" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="https://github.com/Pakhrin00000" class="footer__social-link" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+        <a href="mailto:sujanpakhrin969@gmail.com" class="footer__social-link" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <span class="footer__copy">
+        &#169; Sujan Pakhrin. All rights reserved.
+      </span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
